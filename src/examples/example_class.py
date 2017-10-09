@@ -12,6 +12,14 @@ class Product:
     def __eq__(self, other):
         return self.name == other.name
 
+    @classmethod
+    def class_method(cls):
+        pass
+
+    @staticmethod
+    def static_method(self):
+        pass
+
 if __name__ == '__main__':
     product = Product("Calvin Klein Perfume 150ml", 110.0, "Calvin Klein", 0)
     print(product)
