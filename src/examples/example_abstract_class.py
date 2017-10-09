@@ -13,5 +13,4 @@ class AnotherSubclass(AbstractClassExample):
 
 
 if __name__ == '__main__':
-    pass
-    #x = AbstractClassExample()
+    x = AbstractClassExample()

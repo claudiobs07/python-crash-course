@@ -13,5 +13,5 @@ class Product:
         return self.name == other.name
 
 if __name__ == '__main__':
-    pass
-    #p1 = Product("Calvin Klein Perfume",110.0, "Calvin Klein", 0)
+    product = Product("Calvin Klein Perfume 150ml", 110.0, "Calvin Klein", 0)
+    print(product)
