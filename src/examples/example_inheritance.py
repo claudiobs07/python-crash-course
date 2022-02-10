@@ -37,4 +37,7 @@ class Cat(Pet):
 if __name__ == '__main__':
     mister_pet = Pet("Mister", "Dog")
     mister_dog = Dog("Mister", True)
-    print(isinstance(mister_pet, Pet))
+    mister_cat = Cat("Mister", True)
+    print(isinstance(mister_cat, Pet))
+    print(isinstance(mister_cat, Cat))
+    print(isinstance(mister_cat, Dog))
